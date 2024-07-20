@@ -1,4 +1,4 @@
-Stock Prediction App
+Stock Prediction App:
 This Stock Prediction App leverages Streamlit and Prophet to provide stock market predictions. It allows users to select a stock ticker, specify the prediction period, and visualize both historical and forecasted stock data.
 
 Features:
@@ -17,3 +17,10 @@ Usage:
 Select a stock ticker and prediction period from the controls.
 View the raw data and time-series charts of stock prices.
 Examine the forecasted stock prices and their components.
+
+The following Python packages should be installed:
+
+Streamlit: For creating the web app interface.
+yfinance: For downloading historical stock data.
+prophet: For time series forecasting.
+plotly: For interactive charts and plots.
